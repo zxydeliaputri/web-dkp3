@@ -1,7 +1,10 @@
+import Nav from "../components/Nav";
+
 function Katalog() {
   return (
     <div>
-      <h1>Katalog.....</h1>
+      <Nav />
+      <h1>Informasi.....</h1>
     </div>
   );
 }
