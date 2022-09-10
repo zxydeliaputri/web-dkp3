@@ -31,10 +31,10 @@ function Nav() {
         </div>
       </nav>
 
-      <nav class="navbar bg-secondary navbar-expand-lg">
-        <div class="container-fluid">
+      <nav className="navbar bg-secondary navbar-expand-lg">
+        <div className="container-fluid">
           <a className="navbar-brand">
-            <Image src="/logo.png" width="35px" height="35px" class="d-inline-block align-text-top" />
+            <Image src="/logo.png" width="35px" height="35px" className="d-inline-block align-text-top" />
             <span className="text-dark h3 ms-3">Web-DKP3</span>
           </a>
         </div>
