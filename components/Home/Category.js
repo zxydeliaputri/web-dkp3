@@ -1,3 +1,3 @@
 export default function Category() {
-  return <div>hi:D</div>;
+  return <div>BIDANG KETAHANAN PANGAN</div>;
 }

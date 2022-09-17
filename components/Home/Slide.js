@@ -3,18 +3,26 @@ import Image from "next/image";
 export default function Slide() {
   return (
     <div className="container">
-      <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
-          <div className="carousel-item active ">
+          <div className="carousel-item active">
             <Image src="/Dkp3.jpeg" alt="" width="100%" height="50%" layout="responsive" />
           </div>
           <div className="carousel-item">
-            <Image src="/me.png" alt="me" width="64" height="64" />
+            <Image src="/kwt.jpeg" alt="me" width="1500%" height="750%" />
           </div>
           <div className="carousel-item">
-            <Image src="/me.png" alt="me" width="64" height="64" />
+            <Image src="/ktt.jpeg" alt="me" width="1500%" height="750%" />
           </div>
         </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );

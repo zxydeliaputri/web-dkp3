@@ -31,7 +31,7 @@ function Nav() {
         </div>
       </nav>
 
-      <nav className="navbar bg-secondary navbar-expand-lg">
+      <nav className="navbar bg-success navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand">
             <Image src="/logo.png" width="35px" height="35px" className="d-inline-block align-text-top" />
