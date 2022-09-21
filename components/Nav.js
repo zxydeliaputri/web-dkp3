@@ -5,7 +5,7 @@ function Nav() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-dark">
-        <div className="container-fluid">
+        <div className="container">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -32,10 +32,10 @@ function Nav() {
       </nav>
 
       <nav className="navbar bg-success navbar-expand-lg">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand">
-            <Image src="/logo.png" width="35px" height="35px" className="d-inline-block align-text-top" />
-            <span className="text-dark h3 ms-3">Web-DKP3</span>
+            <Image src="/logo.png" width="35px" height="35px" className="d-inline-block align-text-top" alt="" />
+            <span className="text-white h3 ms-3">Dinas Ketahanan Pangan Kota Tasikmalaya</span>
           </a>
         </div>
       </nav>
