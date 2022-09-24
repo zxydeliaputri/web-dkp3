@@ -18,7 +18,7 @@ export default function Profil() {
             <div className="card-header bg-dark text-white">
               <h3>VISI, MISI, dan MOTTO</h3>
             </div>
-            <div className="card-body bg-info text-white">
+            <div className="card-body bg-secondary text-white">
               <div className="col-md-3 pt-3 pb-3 text-center bg-success">
                 <h4>VISI</h4>
               </div>
