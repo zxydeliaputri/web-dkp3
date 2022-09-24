@@ -5,7 +5,7 @@ export default function Slide() {
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleControls" className="carousel slide" data-bs-ride="true">
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <Image src="/Dkp3.jpeg" alt="" width="100%" height="50%" layout="responsive" />
