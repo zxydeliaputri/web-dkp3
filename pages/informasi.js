@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/Link";
 import { useState, useEffect } from "react";
 import { supabase } from '../utils/supabaseClient'
 
@@ -28,7 +29,9 @@ function Informasi() {
                 <div key={i} className="col-md-3">
                   <div className="card mt-3 mb-3">
                     <div className="card-header p-0">
+                    <Link href={"/produk/"+item.id}>
                       <Image src={item.foto} className="img-thumbnail" width="100" height="100" layout="responsive" alt="" priority />
+                    </Link>
                     </div>
                     <div className="card-body">
                       <h5>{item.nama}</h5>
