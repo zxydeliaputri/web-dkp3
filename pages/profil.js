@@ -22,7 +22,7 @@ export default function Profil() {
               <div className="col-md-3 pt-3 pb-3 text-center bg-success">
                 <h4>VISI</h4>
               </div>
-              <p>" Terwujudnya pelayanan sektor pangan, pertanian dan perikanan yang profesional "</p>
+              <p>&quot;Terwujudnya pelayanan sektor pangan, pertanian dan perikanan yang profesional&quot;</p>
               <div className="col-md-3 pt-3 pb-3 text-center bg-success">
                 <h4>MISI</h4>
               </div>
