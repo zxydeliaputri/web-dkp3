@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 import Nav from "../components/Nav";
 
+=======
+>>>>>>> 684b96734af9fc22748f88852b82516d694fa863
 export default function Profil() {
   return (
     <div className="container">
       <div className="row">
         <div className="col-md-12">
           <div className="card">
+<<<<<<< HEAD
             <div className="card-header bg-dark text-white">
               <h3>Sekilas DKP3</h3>
             </div>
@@ -48,6 +52,16 @@ export default function Profil() {
               </ol>
             </p>
           </div>
+=======
+            <div className="card-header">Visi Misi Motto</div>
+            <div className="card-body">
+              <div className="col-md-3 pt-3 pb-3 text-center text-white bg-success">
+                <h4>Visi</h4>
+              </div>
+              <p>visiadladlasdlahld;fa;lsjdflaksjdfl;d</p>
+            </div>
+          </div>
+>>>>>>> 684b96734af9fc22748f88852b82516d694fa863
         </div>
       </div>
     </div>
