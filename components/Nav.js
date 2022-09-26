@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/Link";
+import Link from "next/link";
 
 function Nav() {
   return (
@@ -34,7 +34,7 @@ function Nav() {
       <nav className="navbar bg-success navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand">
-            <Image src="/logotasik.png" width="35px" height="35px" className="d-inline-block align-text-top" alt="logo" priority />
+            <Image src="/logotasik.png" width={35} height={35} className="d-inline-block align-text-top" alt="logo" priority />
             <span className="text-white h3 ms-3">Dinas Ketahanan Pangan Kota Tasikmalaya</span>
           </a>
         </div>

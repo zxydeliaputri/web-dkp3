@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 import React from 'react'
 
 function Category() {
@@ -10,7 +10,7 @@ function Category() {
           <div className='col-md-4'>
             <div className='text-center'>
               <Link href="/kategori/2">
-                <a><Image src="/sayuran.jpg" alt="sayuran" width="90%" height="80%" priority /></a>
+                <Image src="/sayuran.jpg" alt="sayuran" width="90%" height="80%" priority />
               </Link>
               <div>Sayuran</div>
             </div>
@@ -18,7 +18,7 @@ function Category() {
           <div className='col-md-4'>
             <div className='text-center'>
               <Link href="/kategori/3">
-                <a><Image src="/buah.jpg" alt="sayuran" width="90%" height="80%" priority /></a>
+                <Image src="/buah.jpg" alt="sayuran" width="90%" height="80%" priority />
               </Link>
               <div>Buah</div>
             </div>
@@ -26,7 +26,7 @@ function Category() {
           <div className='col-md-4'>
             <div className='text-center'>
               <Link href="/kategori/1">
-                <a><Image src="/rempah.jpg" alt="sayuran" width="90%" height="80%" priority /></a>
+                <Image src="/rempah.jpg" alt="sayuran" width="90%" height="80%" priority />
               </Link>
               <div>Rempah</div>
             </div>
