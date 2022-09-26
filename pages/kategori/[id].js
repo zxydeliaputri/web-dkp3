@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from 'next/Link'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { supabase } from '../../utils/supabaseClient'
@@ -19,7 +19,7 @@ function Kategori() {
     const { data, error } = await supabase
       .from('Produk')
       .select(`id, nama, foto, id_Kategori(nama)`)
-      .match({id_Kategori: id})
+      .match({ id_Kategori: id })
     if (data) {
       setItems(data)
     }
@@ -30,7 +30,7 @@ function Kategori() {
       .from('Kategori')
       .select('id, nama')
       .eq('id', id)
-    if(data) setKategori(data[0])
+    if (data) setKategori(data[0])
   }
   return (
     <div className="container">
@@ -43,12 +43,14 @@ function Kategori() {
                 <div key={i} className="col-md-3">
                   <div className="card mt-3 mb-3">
                     <div className="card-header p-0">
-                      <Link href={"/produk/"+item.id}>
-                        <Image src={item.foto} className="img-thumbnail" width="100" height="100" layout="responsive" alt="" priority />
-                      </Link>
+
+                      <Image src={item.foto} width={100} height={100} layout="responsive" alt="foto" priority />
+
                     </div>
                     <div className="card-body">
-                      <h5>{item.nama}</h5>
+                      <Link href={`/produk/${encodeURIComponent(item.id)}`}>
+                        <h5>{item.nama}</h5>
+                      </Link>
                     </div>
                   </div>
                 </div>

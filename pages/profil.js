@@ -22,17 +22,15 @@ export default function Profil() {
               <div className="col-md-3 pt-3 pb-3 text-center bg-success">
                 <h4>VISI</h4>
               </div>
-              <p>&quot;Terwujudnya pelayanan sektor pangan, pertanian dan perikanan yang profesional&quot;</p>
+              <p><i className="bi bi-quote"></i>Terwujudnya pelayanan sektor pangan, pertanian dan perikanan yang profesional<i className="bi bi-quote"></i></p>
               <div className="col-md-3 pt-3 pb-3 text-center bg-success">
                 <h4>MISI</h4>
               </div>
-              <p>
-                <ol>
-                  <li>Meningkatkan kualitas layanan pada sektor pangan, pertanian dan perikanan</li>
-                  <li>Meningkatkan kualitas SDM pelayanan sektor pangan, pertanian dan perikanan</li>
-                  <li>Menciptakan inovasi pelayanan</li>
-                </ol>
-              </p>
+              <ol>
+                <li>Meningkatkan kualitas layanan pada sektor pangan, pertanian dan perikanan</li>
+                <li>Meningkatkan kualitas SDM pelayanan sektor pangan, pertanian dan perikanan</li>
+                <li>Menciptakan inovasi pelayanan</li>
+              </ol>
               <div className="col-md-3 pt-3 pb-3 text-center bg-success">
                 <h4>MOTTO</h4>
               </div>

@@ -29,14 +29,16 @@ function Informasi() {
                 <div key={i} className="col-md-3">
                   <div className="card mt-3 mb-3">
                     <div className="card-header p-0">
-                      <Link href={`/produk/${encodeURIComponent(item.id)}`}>
-                        {item ? (
-                          <Image src={item.foto} className="img-thumbnail" width={100} height={100} layout="responsive" alt="foto" priority />
-                        ):'loading...'}
-                      </Link>
+
+                      {item ? (
+                        <Image src={item.foto} className="img-thumbnail" width={100} height={100} layout="responsive" alt="foto" priority />
+                      ) : 'loading...'}
+
                     </div>
                     <div className="card-body">
-                      <h5>{item.nama}</h5>
+                      <Link href={`/produk/${encodeURIComponent(item.id)}`}>
+                        <h5>{item.nama}</h5>
+                      </Link>
                     </div>
                   </div>
                 </div>

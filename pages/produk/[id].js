@@ -16,7 +16,7 @@ function DetilProduk() {
     const { data, error } = await supabase
       .from("Produk")
       .select()
-      .eq('id', id)
+      .match({id: id})
 
     if (data) setItem(data[0])
   }
