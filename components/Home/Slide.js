@@ -8,13 +8,13 @@ export default function Slide() {
           <div id="carouselExampleControls" className="carousel slide" data-bs-ride="true">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <Image src="/Dkp3.jpeg" alt="" width="100%" height="50%" layout="responsive" />
+                <Image src="/Dkp3.jpeg" alt="" width="100%" height="50%" layout="responsive" priority />
               </div>
               <div className="carousel-item">
-                <Image src="/kwt.jpeg" alt="me" width="1500%" height="750%" />
+                <Image src="/kwt.jpeg" alt="me" width="1500%" height="750%" priority />
               </div>
               <div className="carousel-item">
-                <Image src="/ktt.jpeg" alt="me" width="1500%" height="750%" />
+                <Image src="/ktt.jpeg" alt="me" width="1500%" height="750%" priority />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
